@@ -1,6 +1,6 @@
 # LineFollower 🏎 ... 🏁
 
-This is a team project developed during a one-day hackathon, at the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. The project consisted of assembling and programming a line follower robot.
+This is a team project developed during a one-day hackathon, at the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. The aim of the project was assembling and programming a line follower robot ourselves.
 
 ## The team 👦🏻👩🏻‍🦱👩🏻
  
@@ -17,7 +17,7 @@ This is a team project developed during a one-day hackathon, at the Introduction
 <details>
   <summary><h2><b>TASK REQUIREMENTS 📁</b></h2></summary>
   <h3>Functionality Requirements</h3>
-  Assemble and program the robot to navigate a racetrack made from black electrical tape on a white board (the line loops around), aiming for optimal speed and accuracy. The robot must adhere to certain rules, including not taking shortcuts, staying on the track, and must not reverse on the track. It can only move along the black line. Make use of only six sensors from the QTR sensor array (excluding the outer left and outer right ones), and ensure that the sensor calibrates itself before the robot commences its journey. Manual calibration of the sensors is not allowed, but as an added feature, the robot could employ calibration values stored in the EEPROM from previous calibration attempts. Additionally, the robot chassis must be constructed by the team. Employ a PID controller and adjust its gains, specifically Kp, Ki (optional), and Kd, to define the characteristics of the robot's movement.
+  Assemble and program the robot to navigate a racetrack made from black electrical tape on a white board (the line loops around), aiming for optimal speed and accuracy. The robot must adhere to certain rules, such as not taking shortcuts, staying on the track, and must not reverse on the track. It can only move along the black line. Make use of only six of the sensors from the QTR sensor array (excluding the outer left and outer right one), and ensure that the sensor calibrates itself before the robot commences its journey. Manual calibration of the sensors is not allowed, but as an added feature, the robot could employ calibration values stored in the EEPROM from previous calibration attempts. Additionally, the robot chassis must be constructed by the team. Employ a PID controller and adjust its gains, specifically Kp, Ki (optional), and Kd, to define the characteristics of the robot's movement.
 
   <h3>Photo of the line follower kit with required components 📷</h3>
   <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/linefollower.png">
@@ -34,15 +34,14 @@ This is a team project developed during a one-day hackathon, at the Introduction
 <details>
   <summary><h2><b>FUNCTIONALITY AND IMPLEMENTATION DETAILS 🔧</b></h2></summary> 
   <h3>Functionality:</h3>
-  Initially, when positioned over the black line, the robot undergoes sensor calibration through iterative right movements. This process enables the robot to learn to identify the black line whenever it is detected in front of the sensor, while disregarding surfaces that are not the black line. We added a blue LED that would light during self-calibration.
+  Initially, when positioned over the black line, the robot undergoes automatic sensor calibration through iterative right movements. This process enables the robot to learn to identify the black line whenever it is detected in front of the sensor, while ignoring surfaces that are not the black line. We added a blue LED that would light during self-calibration.
   
   <h3>Implementation:</h3>
-  
   The PID algorithm: Initially, the PID controller's parameters were arbitrarily selected to observe the robot's behavior. Following many tests and an empirical approach, we decided on the gains kp = 9.7, ki = 0.0002, kd = 26.5.
 
   Calibration: We calibrated the robot by instructing it to rapidly move right for a specific duration within the "set" method of the code. The self-calibration method involved the robot moving to the right for 4 seconds, followed by a return to the initial position for black line detection.
-  
-  Our team's robot successfully completed the displayed racetrack in just 19.076 seconds!
+
+Our team's robot successfully completed the racetrack in just 19.076 seconds!
 
    <h3>Chassis:</h3>
    <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/sasiu1.jpeg" alt="A photo of my setup" width="550" height="450">
