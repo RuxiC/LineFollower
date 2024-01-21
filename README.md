@@ -37,6 +37,7 @@ This is a team project developed during a one-day hackathon, at the Introduction
   Initially, when positioned over the black line, the robot undergoes automatic sensor calibration through iterative right movements. This process enables the robot to learn to identify the black line whenever it is detected in front of the sensor, while ignoring surfaces that are not the black line. We added a blue LED that would light during self-calibration.
   
   <h3>Implementation:</h3>
+  
   The PID algorithm: Initially, the PID controller's parameters were arbitrarily selected to observe the robot's behavior. Following many tests and an empirical approach, we decided on the gains kp = 9.7, ki = 0.0002, kd = 26.5.
 
   Calibration: We calibrated the robot by instructing it to rapidly move right for a specific duration within the "set" method of the code. The self-calibration method involved the robot moving to the right for 4 seconds, followed by a return to the initial position for black line detection.
