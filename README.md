@@ -79,7 +79,7 @@ This is a team project developed during a one-day hackathon, at the Introduction
 <details>
   <summary><h2><b> SHOWCASE 📸 🎥</b></h2></summary>
   <details>
-    <summary><h3><b> Racetrack Picture </b></h3></summary>
+    <summary><h3><b> Racetrack Picture 🦕</b></h3></summary> 
     <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/traseu.jpeg">
   </details> 
   <details>
