@@ -12,7 +12,7 @@ The contributors of the project from this repository are me, along with @alea de
   Assemble and program the improvised car to navigate a racetrack delineated by a looping black line, aiming for optimal speed and accuracy. The car must adhere to certain rules, including not taking shortcuts, staying on the track, and refraining from reversing on the track. The sole permitted movement is continuous progression along the black line. Utilize only six sensors from the QTR sensor array, and ensure that the sensor calibrates itself just before the robot commences its journey. Manual calibration of the sensor is not allowed, but as an added feature, the robot could employ calibration values stored in the EEPROM from previous calibration attempts. Additionally, the car chassis must be constructed by the team. Employ a PID controller and adjust its gains, specifically Kp, Ki (optional), and Kd, to define the characteristics of the robot's movement.
 
   <h3>Photo of the line follower kit with required components 📷</h3>
-  <img src="https://github.com/AlexMihai1126/linefollower_robotics_prototype/blob/main/linefollower.png?raw=true">
+  <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/linefollower.png">
 
   <h3>Gradding details</h3>
   Grade (1-12 points):
@@ -68,7 +68,7 @@ The contributors of the project from this repository are me, along with @alea de
   <summary><h2><b> SHOWCASE 📸 🎥</b></h2></summary>
   <details>
     <summary><h3><b> Racetrack Picture </b></h3></summary>
-    <img src="https://github.com/AlexMihai1126/linefollower_robotics_prototype/blob/main/traseu.jpeg?raw=true">
+    <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/traseu.jpeg">
   </details> 
   <details>
     <summary><h3><b> Linefollower Setup Pictures </b></h3></summary>
@@ -80,5 +80,4 @@ The contributors of the project from this repository are me, along with @alea de
 
   ## You can see here a link to a video showcasing functionality 🎥
   https://youtu.be/3eNxRi1fzAw?si=j07vah7IKBF6WGvR
-   
 </details> 
