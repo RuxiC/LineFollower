@@ -38,9 +38,9 @@ This is a team project developed during a one-day hackathon, at the Introduction
   
   <h3>Implementation:</h3>
   
-  The PID algorithm: Initially, the PID controller's parameters were arbitrarily selected to observe the robot's behavior. Following numerous test drives and an empirical approach, we decided on the gains kp = 9.7, ki = 0.0002, kd = 26.5.
+  The PID algorithm: Initially, the PID controller's parameters were arbitrarily selected to observe the robot's behavior. Following many tests and an empirical approach, we decided on the gains kp = 9.7, ki = 0.0002, kd = 26.5.
 
-  Calibration: I calibrated the robot by instructing it to rapidly move right for a specific duration within the "set" method of the code. The self-calibration method involved the robot moving to the right for 4 seconds, followed by a return to the initial position for black line detection.
+  Calibration: We calibrated the robot by instructing it to rapidly move right for a specific duration within the "set" method of the code. The self-calibration method involved the robot moving to the right for 4 seconds, followed by a return to the initial position for black line detection.
   
   Our team's robot successfully completed the displayed racetrack in just 19.076 seconds!
 
