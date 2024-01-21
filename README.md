@@ -6,7 +6,7 @@ This is a team project developed during a one-day hackathon, at the Introduction
  
   Our team's name is ARC. The contributors of the project from this repository are:
   
-   Alexandru Mihai (@AlexMihai1126 - https://github.com/AlexMihai1126)
+   Mihai Mario-Alexandru(@AlexMihai1126 - https://github.com/AlexMihai1126)
    
    Cîrstea Ruxandra-Gabriela (@RuxiC - https://github.com/RuxiC)
 
