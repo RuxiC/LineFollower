@@ -49,28 +49,30 @@ This is a team project developed during a one-day hackathon, at the Introduction
 </details> 
 
 <details>
-  <summary><h2><b>COMPONENTS USED 🔌</b></h2></summary>
+  <summary><h2><b> COMPONENTS USED 🔌</b></h2></summary>
   
-  <h3>Non-electronic:</h3>
+  <h3> Mechanical ⚙ </h3>
     <ul>
-      <li>1 chassis(built by @)</li>
-      <li>2 wheels</li>
-      <li>1 ball caster</li>
+      <li>The chassis made out of foamboard (built by @AlexMihai1126 - https://github.com/AlexMihai1126)</li>
+      <li>2x wheels</li>
+      <li>1x ball caster</li>
       <li>Screws for the QTR-8A sensor</li>
-      <li>2 N20 DC Motors fixation</li>
+      <li>2x 3D-printed DC Motor holders & appropriate screws</li>
     </ul> 
     
-  <h3>Electronic:</h3>
+   <h3> Electronics ⚡ </h3>
     <ul>
-      <li>1 Arduino </li>
-      <li>1 QTR-8A reflectance sensor</li>
-      <li>2 DC motors</li>
-      <li>1 L293D motor driver</li>
-      <li>1 LiPo battery (power source)</li>
-      <li>1 breadboard (mini)</li>
-      <li>wires (per logic)</li>
+      <li>1x Arduino Pro Micro </li>
+      <li>1x Pololu QTR-8A reflectance sensor</li>
+      <li>2x DC motors</li>
+      <li>1x L293D motor driver</li>
+      <li>1x LiPo battery for power</li>
+      <li>1x mini-breadboard</li>
+      <li>wires (as needed)</li>
+      <li>1x Blue LED - for showing when we are in calibration mode</li>
+      <li>1x 330 ohm resistor for the LED</li>
     </ul> 
-</details> 
+</details>
 
 <details>
   <summary><h2><b> SHOWCASE 📸 🎥</b></h2></summary>
