@@ -2,7 +2,7 @@
 
 This is a team project developed during a one-day hackathon, at the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. The project consisted of assembling and programming a line follower robot.
 
-## THE TEAM 👦🏻👩🏻‍🦱👩🏻
+## The team 👦🏻👩🏻‍🦱👩🏻
  
   Our team's name is ARC. The contributors of the project from this repository are:
   
