@@ -45,7 +45,9 @@ This is a team project developed during a one-day hackathon, at the Introduction
   Our team's robot successfully completed the displayed racetrack in just 19.076 seconds!
 
    <h3>Chassis:</h3>
-   
+   <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/sasiu1.jpeg" alt="A photo of my setup" width="550" height="450">
+   <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/sasiu2.jpeg" alt="A photo of my setup" width="550" height="450">
+   <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/sasiu3.jpeg" alt="A photo of my setup" width="550" height="450">
 </details> 
 
 <details>
