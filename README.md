@@ -2,7 +2,15 @@
 
 This is a team project developed during a one-day hackathon, at the Introduction to Robotics course taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. The project consisted of assembling and programming a line follower robot.
 
-The contributors of the project from this repository are me, along with @alea de la git ale noastre, and our team's name is ARC .
+## THE TEAM
+ 
+  Our team's name is ARC. The contributors of the project from this repository are:
+  
+   Alexandru Mihai (@AlexMihai1126 - https://github.com/AlexMihai1126)
+  
+   Ojoc Diana-Cristiana (@CristianaOD - https://github.com/CristianaOD)
+   
+   Cîrstea Ruxandra-Gabriela (@RuxiC - https://github.com/RuxiC)
 
 ## Project details
 
