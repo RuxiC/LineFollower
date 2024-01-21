@@ -72,9 +72,9 @@ The contributors of the project from this repository are me, along with @alea de
   </details> 
   <details>
     <summary><h3><b> Linefollower Setup Pictures </b></h3></summary>
-    <img src="https://github.com/CristianaOD/LineFollower/blob/main/linefollower/line.jpeg?raw=true" alt="A photo of my setup" width="550" height="450">
-    <img src="https://github.com/CristianaOD/LineFollower/blob/main/linefollower/line1.jpeg?raw=true" alt="A photo of my setup1" width="550" height="450">
-    <img src="https://github.com/CristianaOD/LineFollower/blob/main/linefollower/line2.jpeg?raw=true" alt="A photo of my setup2" width="550" height="450">
+    <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/line1.jpeg" alt="A photo of my setup" width="550" height="450">
+    <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/line2.jpeg" alt="A photo of my setup1" width="550" height="450">
+    <img src="https://github.com/RuxiC/LineFollower/blob/main/LineFollower/line3.jpeg" alt="A photo of my setup2" width="550" height="450">
    
   </details>
 
