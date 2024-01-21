@@ -34,7 +34,7 @@ This is a team project developed during a one-day hackathon, at the Introduction
 <details>
   <summary><h2><b>FUNCTIONALITY AND IMPLEMENTATION DETAILS 🔧</b></h2></summary> 
   <h3>Functionality:</h3>
-  Initially, when positioned over the black line, the robot undergoes sensor calibration through iterative right movements. This process enables the robot to learn to identify the black line whenever it is detected in front of the sensor, while disregarding surfaces that are not the black line.
+  Initially, when positioned over the black line, the robot undergoes sensor calibration through iterative right movements. This process enables the robot to learn to identify the black line whenever it is detected in front of the sensor, while disregarding surfaces that are not the black line. We had an LED that would light up while the machine was self-calibrating.
   
   <h3>Implementation:</h3>
   
